@@ -10,6 +10,10 @@ from keras.models import Sequential
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 
+"""
+    This code is a follow up from Machine Learning course at PUC Minas
+    Credentials were provided by the professor. 
+"""
 
 def reset_seeds():
     """
