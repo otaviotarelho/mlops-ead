@@ -31,7 +31,7 @@ jobs:
 
       - name: Test files
         run: |
-          pytest ./mlops/test_train.py
+          pytest ./mlops-class/test_train.py
 
   train_pipeline:
       runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
 
           - name: Train Model
             run: |
-              python ./mlops/train.py 
+              python ./mlops-class/train.py 
 
   build_image:
     runs-on: ubuntu-latest
